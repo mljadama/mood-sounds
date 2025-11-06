@@ -38,7 +38,7 @@ export default function AuthForm({ onSubmit, buttonText }) {
         secureTextEntry
       />
 
-      {/* LOGIN / SIGN UP BUTTON – FULL WIDTH, 56px HEIGHT */}
+      
       <TouchableOpacity style={styles.button} onPress={handleSubmit}>
         <Text style={styles.buttonText}>{buttonText}</Text>
       </TouchableOpacity>
