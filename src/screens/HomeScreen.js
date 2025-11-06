@@ -1,10 +1,9 @@
-// src/screens/HomeScreen.js
 import React from 'react';
 import { View, Text, Button, StyleSheet, Platform } from 'react-native';
 import MoodButton from '../components/MoodButton';
 import { supabase } from '../services/supabaseClient';
 
-// === CORRECT PATHS (NO TYPO) ===
+
 const chimeSound = require('../assets/sounds/Chime.mp3');
 const dreamSound = require('../assets/sounds/Dream.mp3');
 const waterSound = require('../assets/sounds/water.mp3');
