@@ -1,14 +1,12 @@
-// App.js
 import 'react-native-gesture-handler';
 import React from 'react';
 import AppNavigator from './src/navigation/AppNavigator';
 
-// Optional: Unlock audio on first click (for web)
+
 import { Audio } from 'expo-av';
 import { useEffect } from 'react';
 
 export default function App() {
-  // Fix: Web audio needs user interaction
   useEffect(() => {
     const unlockAudio = async () => {
       await Audio.setAudioModeAsync({
