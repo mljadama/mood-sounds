@@ -1,4 +1,3 @@
-// src/screens/SignupScreen.js
 import React from 'react';
 import {
   View,
@@ -24,10 +23,9 @@ export default function SignupScreen({ navigation }) {
     <View style={styles.container}>
       <Text style={styles.title}>Join Mood Sounds</Text>
 
-      {/* Sign Up Form */}
+      
       <AuthForm onSubmit={handleSignup} buttonText="Sign Up" />
 
-      {/* BACK TO LOGIN – SAME SIZE AS SIGN UP BUTTON */}
       <TouchableOpacity
         style={styles.backButton}
         onPress={() => navigation.navigate('Login')}
@@ -53,7 +51,6 @@ const styles = StyleSheet.create({
     color: '#6200EE',
   },
 
-  // MATCHES AuthForm button exactly
   backButton: {
     height: 56,
     width: '100%',
