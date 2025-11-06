@@ -1,4 +1,3 @@
-// src/components/MoodButton.js
 import React from 'react';
 import { TouchableOpacity, Text, StyleSheet, Platform } from 'react-native';
 import { Audio } from 'expo-av';
@@ -49,7 +48,6 @@ export default function MoodButton({ label, soundFile, soundName }) {
   );
 }
 
-// SMALLER BUTTONS
 const styles = StyleSheet.create({
   button: {
     backgroundColor: '#6200EE',
