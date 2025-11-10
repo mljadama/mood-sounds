@@ -9,9 +9,9 @@ Live demo: npx expo start → Scan QR with Expo Go
 
 
 <div align="center">
-  <img src="screenshots/login.png" width="300" alt="Login"/>
-  <img src="screenshots/home.png" width="300" alt="Home"/>
-  <img src="screenshots/favorites.png" width="300" alt="Favorites"/>
+  <img src="screenshots/login.jpg" width="300" alt="Login"/>
+  <img src="screenshots/home.jpg" width="300" alt="Home"/>
+  <img src="screenshots/favorites.jpg" width="300" alt="Favorites"/>
 </div>
 
 ## Features
@@ -33,5 +33,6 @@ git clone https://github.com/mljadama/mood-sounds.git
 cd mood-sounds
 npm install
 npx expo start --clear
+
 
 
